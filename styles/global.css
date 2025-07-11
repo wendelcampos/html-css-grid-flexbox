@@ -44,17 +44,16 @@ h3 {
   font: inherit;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   max-width: 1280px;
   padding-inline: 32px;
   margin-inline: auto;
 }
 
-/* utility-first */
-.grid {
-  display: grid;
-}
-
-.grid-col {
-  grid-auto-flow: column;
+main {
+  padding-top: 40px;
 }
